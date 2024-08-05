@@ -32,8 +32,7 @@ public class TestNGBasic {
 		
 				System.setProperty("webdriver.chrome.driver", "./Driver//chromedriver.exe");
 				
-			driver= 	new ChromeDriver();
-				
+				driver= new ChromeDriver();
 		
 	}
 	
@@ -49,13 +48,7 @@ public class TestNGBasic {
 		driver.manage().window().maximize();
 	}
 	
-	@BeforeTest
-	public void login() {
 		
-		System.out.println("login method. ");
-	}
-	
-	
 	@Test
 	
 	public void FitPeo() {
@@ -145,9 +138,7 @@ public class TestNGBasic {
 		}
 	}
 
-		
-	
-	
+			
 	
 	@AfterClass
 	
